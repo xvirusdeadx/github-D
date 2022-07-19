@@ -1,0 +1,33 @@
+#cuadrado {
+    width: 200px;
+    height: 200px;
+    background: #aaa;
+    animation-name: cuadradito;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes cuadradito {
+    0% {background: #aaa; left: 0px; top: 0px;}
+    25% {background: blueviolet; left: 300px; top: 0px;}
+    50% {background: red; left: 300px; top: 300px; }
+    75% {background: greenyellow; left: 0px; top: 300px;}
+    100% {background: aqua; left: 0px; top: 0px;}
+}
+
+
+
+.transicion {
+    background: tomato;
+    height: 700px;
+    width: 700px;
+    margin: 20px;
+    transition: background-color 2s;
+}
+
+.transicion:hover {
+    background: steelblue;
+
+}
